@@ -1,15 +1,13 @@
 package spells;
 
-public enum WeaponType {
+public enum SpellType {
 
-    SWORD(20),
-    AXE(10),
-    CLUB(5);
-
+    FIREBALL(20),
+    LIGHTNING_STRIKE(10);
 
     private final int damage;
 
-    WeaponType(int damage){
+    SpellType(int damage){
         this.damage = damage;
     }
 
