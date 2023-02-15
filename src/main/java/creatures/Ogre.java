@@ -1,4 +1,7 @@
 package creatures;
 
-public class Ogre {
+import behaviours.IDefend;
+
+public class Ogre implements IDefend {
+    
 }

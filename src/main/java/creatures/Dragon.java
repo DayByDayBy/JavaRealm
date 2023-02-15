@@ -1,4 +1,6 @@
 package creatures;
 
-public class Dragon {
+import behaviours.IDefend;
+
+public class Dragon implements IDefend {
 }

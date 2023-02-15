@@ -1,4 +1,4 @@
-package spells;
+package weapons;
 
 public enum WeaponType {
 
