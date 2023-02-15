@@ -1,4 +1,4 @@
 package players;
 
-public class Barbarian {
+public class Barbarian extends Fighter {
 }

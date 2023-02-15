@@ -1,4 +1,4 @@
 package players;
 
-public class Wizard {
+public class Wizard extends Mage {
 }

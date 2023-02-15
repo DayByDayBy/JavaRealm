@@ -1,4 +1,4 @@
 package players;
 
-public class Warlock {
+public class Warlock extends Mage {
 }

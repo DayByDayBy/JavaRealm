@@ -1,4 +1,4 @@
 package enemies;
 
-public class Troll {
+public class Troll extends Enemy {
 }
