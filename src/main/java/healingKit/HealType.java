@@ -11,7 +11,7 @@ public enum HealType {
             this.heal = heal;
         }
 
-    public int getHeal() {
+        public int getHeal() {
         return heal;
     }
 }

@@ -39,4 +39,9 @@ public class Ogre implements IDefend, Targetable {
     public void setPummel(IDefend pummel) {
         this.pummel = pummel;
     }
+
+    @Override
+    public int defend() {
+        return 0;
+    }
 }

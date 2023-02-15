@@ -5,7 +5,9 @@ import behaviours.IWeapon;
 
 public class Warlock extends Mage {
 
-    public Warlock(String name, PlayerType playerType, ISpell fireball) {
-        super(name, playerType, fireball, fireball);
+    public Warlock(String name, PlayerType playerType, ISpell fireball, int health) {
+        super(name, playerType, fireball, health);
     }
+
+
 }

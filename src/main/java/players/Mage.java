@@ -4,31 +4,26 @@ import behaviours.ISpell;
 
 public class Mage extends Player {
 
-    private ISpell fireball;
-    private ISpell lightningStrike;
+    private ISpell spell;
 
 
-    public Mage(String name, PlayerType playerType, ISpell fireball, ISpell lightningStrike) {
-        super(name, playerType);
-        this.fireball = fireball;
-        this.lightningStrike = lightningStrike;
+    public Mage(String name, PlayerType playerType, ISpell spell, int health) {
+        super(name, playerType, health);
+        this.spell = spell;
 
 
     }
 
-    public ISpell getFireball() {
-        return fireball;
+    public ISpell getSpell() {
+        return spell;
     }
 
-    public void setFireball(ISpell fireball) {
-        this.fireball = fireball;
+    public void setSpell(ISpell spell) {
+        this.spell = spell;
     }
 
-    public ISpell getLightningStrike() {
-        return lightningStrike;
-    }
-
-    public void setLightningStrike(ISpell lightningStrike) {
-        this.lightningStrike = lightningStrike;
+    @Override
+    public int attack() {
+        return 0;
     }
 }

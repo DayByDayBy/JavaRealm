@@ -39,4 +39,9 @@ public class Dragon implements IDefend, Targetable {
     public void setFire(IDefend fire) {
         this.fire = fire;
     }
+
+    @Override
+    public int defend() {
+        return 0;
+    }
 }
