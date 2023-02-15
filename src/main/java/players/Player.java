@@ -3,7 +3,7 @@ package players;
 import behaviours.IWeapon;
 import behaviours.Targetable;
 
-public abstract class Player implements IWeapon, Targetable {
+public abstract class Player implements Targetable {
 
     private String name;
     private PlayerType playerType;

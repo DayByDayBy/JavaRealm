@@ -1,6 +1,8 @@
 package players;
 
-public class Fighter extends Player {
+import behaviours.IWeapon;
+
+public class Fighter extends Player implements IWeapon {
 
 
     public Fighter(String name, PlayerType playerType, int health) {

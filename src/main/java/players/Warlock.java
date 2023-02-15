@@ -1,7 +1,7 @@
 package players;
 
 import behaviours.ISpell;
-import behaviours.IWeapon;
+
 
 public class Warlock extends Mage {
 

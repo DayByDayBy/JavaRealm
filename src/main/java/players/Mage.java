@@ -21,9 +21,6 @@ public class Mage extends Player {
     public void setSpell(ISpell spell) {
         this.spell = spell;
     }
-
-    @Override
-    public int attack() {
-        return 0;
-    }
 }
+
+
