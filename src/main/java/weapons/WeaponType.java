@@ -6,7 +6,6 @@ public enum WeaponType {
     AXE(10),
     CLUB(5);
 
-
     private final int damage;
 
     WeaponType(int damage){
@@ -16,5 +15,4 @@ public enum WeaponType {
     public int getDamage() {
         return damage;
     }
-
 }

@@ -1,7 +1,7 @@
 package enemies;
 
-import behaviours.IWeapon;
 import behaviours.Targetable;
+import players.Player;
 import weapons.WeaponType;
 
 public abstract class Enemy implements Targetable {
@@ -14,6 +14,8 @@ public abstract class Enemy implements Targetable {
         this.health = health;
         this.weaponType = weaponType;
     }
+
+
 
     public String getName() {
         return name;
@@ -30,6 +32,14 @@ public abstract class Enemy implements Targetable {
     public void setHealth(int health) {
         this.health = health;
     }
+
+    public int attack(Player player) {
+        player.setHealth(player.getHealth() - weaponType.getDamage());
+        return player.getHealth();
+
+    }
+
+
 
 
 }
