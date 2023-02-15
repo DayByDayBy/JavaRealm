@@ -4,6 +4,7 @@ import behaviours.IHeal;
 import healingKit.HealType;
 
 
+
 public class Cleric extends Player {
     private HealType herb;
     private HealType potion;
