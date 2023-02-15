@@ -12,4 +12,11 @@ public class Knight extends Fighter {
             this.weapon = weapon;
         }
 
+    public int attack(Player player) {
+        player.setHealth(player.getHealth() - weapon.getDamage());
+        return player.getHealth();
+
     }
+
+
+}

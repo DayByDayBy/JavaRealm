@@ -2,6 +2,7 @@ package players;
 
 import behaviours.IWeapon;
 import behaviours.Targetable;
+import weapons.WeaponType;
 
 public abstract class Player implements Targetable {
 
@@ -24,6 +25,14 @@ public abstract class Player implements Targetable {
         this.name = name;
     }
 
+    public int getHealth() {
+        return health;
+    }
+
+    public  void setHealth(int health) {
+        this.health = health;
+    }
+
     public PlayerType getPlayerType() {
         return playerType;
     }
@@ -31,4 +40,7 @@ public abstract class Player implements Targetable {
     public void setPlayerType(PlayerType playerType) {
         this.playerType = playerType;
     }
+
+
+
 }

@@ -40,8 +40,7 @@ public class PlayerTest {
 
     @Test
     public void playerCanLoseHealth(){
-        WeaponType.SWORD.getDamage();
-
+        assertEquals(190, enemy.attack(player));
     }
 
     }
