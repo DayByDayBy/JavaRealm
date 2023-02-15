@@ -2,16 +2,17 @@ package enemies;
 
 import behaviours.IWeapon;
 import behaviours.Targetable;
+import weapons.WeaponType;
 
 public abstract class Enemy implements Targetable {
     private String name;
     private int health;
-    private IWeapon weapon;
+    private WeaponType weaponType;
 
-    public Enemy(String name, int health, IWeapon weapon) {
+    public Enemy(String name, int health, WeaponType weaponType) {
         this.name = name;
         this.health = health;
-        this.weapon = weapon;
+        this.weaponType = weaponType;
     }
 
     public String getName() {

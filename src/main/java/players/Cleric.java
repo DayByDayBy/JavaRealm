@@ -1,6 +1,7 @@
+package players;
+
 import behaviours.IHeal;
-import players.Player;
-import players.PlayerType;
+
 
 
 public class Cleric extends Player {
